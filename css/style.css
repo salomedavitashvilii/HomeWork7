@@ -188,4 +188,13 @@ button{
     font-weight: 700;
     line-height: 120%; /* 19.2px */
     text-transform: capitalize;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px #DCB47A,
+                0 0 20px #DCB47A,
+                0 0 60px #DCB47A,
+                0 0 150px #DCB47A;
 }
